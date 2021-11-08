@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/Spotify.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>Spotify</title>
+  </head>
+  <body>
+    <div id="grid-template">
+      <div class="bar">
+        <div class="bar-items">
+          <div class="logo">
+            <svg viewBox="0 0 1134 340" class="spotify-logo--text">
+              <title>Spotify</title>
+              <path
+                fill="currentColor"
+                d="M8 171c0 92 76 168 168 168s168-76 168-168S268 4 176 4 8 79 8 171zm230 78c-39-24-89-30-147-17-14 2-16-18-4-20 64-15 118-8 162 19 11 7 0 24-11 18zm17-45c-45-28-114-36-167-20-17 5-23-21-7-25 61-18 136-9 188 23 14 9 0 31-14 22zM80 133c-17 6-28-23-9-30 59-18 159-15 221 22 17 9 1 37-17 27-54-32-144-35-195-19zm379 91c-17 0-33-6-47-20-1 0-1 1-1 1l-16 19c-1 1-1 2 0 3 18 16 40 24 64 24 34 0 55-19 55-47 0-24-15-37-50-46-29-7-34-12-34-22s10-16 23-16 25 5 39 15c0 0 1 1 2 1s1-1 1-1l14-20c1-1 1-1 0-2-16-13-35-20-56-20-31 0-53 19-53 46 0 29 20 38 52 46 28 6 32 12 32 22 0 11-10 17-25 17zm95-77v-13c0-1-1-2-2-2h-26c-1 0-2 1-2 2v147c0 1 1 2 2 2h26c1 0 2-1 2-2v-46c10 11 21 16 36 16 27 0 54-21 54-61s-27-60-54-60c-15 0-26 5-36 17zm30 78c-18 0-31-15-31-35s13-34 31-34 30 14 30 34-12 35-30 35zm68-34c0 34 27 60 62 60s62-27 62-61-26-60-61-60-63 27-63 61zm30-1c0-20 13-34 32-34s33 15 33 35-13 34-32 34-33-15-33-35zm140-58v-29c0-1 0-2-1-2h-26c-1 0-2 1-2 2v29h-13c-1 0-2 1-2 2v22c0 1 1 2 2 2h13v58c0 23 11 35 34 35 9 0 18-2 25-6 1 0 1-1 1-2v-21c0-1 0-2-1-2h-2c-5 3-11 4-16 4-8 0-12-4-12-12v-54h30c1 0 2-1 2-2v-22c0-1-1-2-2-2h-30zm129-3c0-11 4-15 13-15 5 0 10 0 15 2h1s1-1 1-2V93c0-1 0-2-1-2-5-2-12-3-22-3-24 0-36 14-36 39v5h-13c-1 0-2 1-2 2v22c0 1 1 2 2 2h13v89c0 1 1 2 2 2h26c1 0 1-1 1-2v-89h25l37 89c-4 9-8 11-14 11-5 0-10-1-15-4h-1l-1 1-9 19c0 1 0 3 1 3 9 5 17 7 27 7 19 0 30-9 39-33l45-116v-2c0-1-1-1-2-1h-27c-1 0-1 1-1 2l-28 78-30-78c0-1-1-2-2-2h-44v-3zm-83 3c-1 0-2 1-2 2v113c0 1 1 2 2 2h26c1 0 1-1 1-2V134c0-1 0-2-1-2h-26zm-6-33c0 10 9 19 19 19s18-9 18-19-8-18-18-18-19 8-19 18zm245 69c10 0 19-8 19-18s-9-18-19-18-18 8-18 18 8 18 18 18zm0-34c9 0 17 7 17 16s-8 16-17 16-16-7-16-16 7-16 16-16zm4 18c3-1 5-3 5-6 0-4-4-6-8-6h-8v19h4v-6h4l4 6h5zm-3-9c2 0 4 1 4 3s-2 3-4 3h-4v-6h4z"
+              ></path>
+            </svg>
+          </div>
+          <div id="menu">
+            <div class="menu-point" id="home">
+              <svg
+                width="18"
+                height="20"
+                viewBox="0 0 18 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6 12H12V19H17V5.8L9 1.2L1 5.8V19H6V12ZM7 20H0V5.2L9 0L18 5.2V20H11V13H7V20Z"
+                  fill="white"
+                />
+              </svg>
+              <p>Главная</p>
+            </div>
+            <div class="menu-point" id="find">
+              <svg
+                width="19"
+                height="21"
+                viewBox="0 0 19 21"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.387 14.623C15.2135 13.8318 15.8712 12.8813 16.3203 11.829C16.7694 10.7766 17.0006 9.64418 17 8.5C17 6.81886 16.5015 5.17547 15.5675 3.77765C14.6335 2.37984 13.306 1.29037 11.7528 0.647024C10.1996 0.0036791 8.49057 -0.164649 6.84174 0.163325C5.1929 0.4913 3.67834 1.30085 2.4896 2.48959C1.30085 3.67834 0.491303 5.19289 0.163329 6.84173C-0.164645 8.49057 0.00368291 10.1996 0.647028 11.7528C1.29037 13.306 2.37984 14.6335 3.77766 15.5675C5.17547 16.5015 6.81886 17 8.5 17C10.3517 17.0002 12.1522 16.3924 13.625 15.27L18.026 20.423L18.786 19.774L14.387 14.623V14.623ZM8.5 16C4.364 16 1 12.636 1 8.5C1 4.364 4.364 1 8.5 1C12.636 1 16 4.364 16 8.5C16 12.636 12.636 16 8.5 16Z"
+                  fill="white"
+                />
+              </svg>
+              <p>Поиск</p>
+            </div>
+            <div class="menu-point" id="library">
+              <svg
+                width="19"
+                height="19"
+                viewBox="0 0 19 19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10.66 0.0970001L9.747 0.503L17.544 18.016L18.458 17.61L10.66 0.0970001ZM0 18H1V0H0V18ZM6 18H7V0H6V18Z"
+                  fill="white"
+                />
+              </svg>
+              <p>Моя медиатека</p>
+            </div>
+          </div>
+          <hr />
+          <div id="playlists">
+            <ul>
+              <div class="playlist">
+                <li>Будильник</li>
+              </div>
+              <div class="playlist">
+                <li>Your Top Songs 2020</li>
+              </div>
+              <div class="playlist">
+                <li>Your Top Songs 2019</li>
+              </div>
+              <div class="playlist">
+                <li>Your Top Songs 2018</li>
+              </div>
+              <div class="playlist">
+                <li>Your Top Songs 2017</li>
+              </div>
+              <div class="playlist">
+                <li>Markul</li>
+              </div>
+              <div class="playlist">
+                <li>Russian Hip-Hop</li>
+              </div>
+              <div class="playlist">
+                <li>Avicii</li>
+              </div>
+              <div class="playlist">
+                <li>Markul</li>
+              </div>
+              <div class="playlist">
+                <li>Lo-Fi Hip-Hop</li>
+              </div>
+              <div class="playlist">
+                <li>Learning</li>
+              </div>
+              <div class="playlist">
+                <li>Orchestral</li>
+              </div>
+              <div class="playlist">
+                <li>pyrokinesis</li>
+              </div>
+              <div class="playlist">
+                <li>Family Mix</li>
+              </div>
+              <div class="playlist">
+                <li>Song of Summer</li>
+              </div>
+              <div class="playlist">
+                <li>Tag Shai</li>
+              </div>
+              <div class="playlist">
+                <li>Lindsey Stirling</li>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="main">
+        <div class="header">
+          <button id="btn-prev">
+            <span class="material-icons enable-arrow"> chevron_left </span>
+          </button>
+          <button id="btn-next" disabled="disabled">
+            <span class="material-icons disable-arrow"> chevron_right </span>
+          </button>
+        </div>
+        <div class="profile">
+          <div class="profile-items" id="avatar">
+            <img src="assets/mylogo v4_1.jpg" />
+          </div>
+          <div class="profile-items" id="profile-info">
+            <span id="profile-profile">Профиль</span>
+            <span id="profile-name">JollyBanny</span>
+            <span id="profile-stat">
+              4 открытых плейлиста · 10 подписчиков · 21 подписка
+            </span>
+          </div>
+        </div>
+        <div class="info">
+          <section id="my-authors">
+            <div class="top">
+              <h2>Мой топ исполнителей этого месяца:</h2>
+              <p>Видны только тебе</p>
+            </div>
+            <div class="cards">
+              <div class="author">
+                <img src="assets/mylogo v4_1.jpg" />
+                <h1>Oxxxymiron</h1>
+                <p>Исполнитель</p>
+              </div>
+              <div class="author">
+                <img src="assets/mylogo v4_1.jpg" />
+                <h1>Oxxxymiron</h1>
+                <p>Исполнитель</p>
+              </div>
+              <div class="author">
+                <img src="assets/mylogo v4_1.jpg" />
+                <h1>Oxxxymiron</h1>
+                <p>Исполнитель</p>
+              </div>
+              <div class="author">
+                <img src="assets/mylogo v4_1.jpg" />
+                <h1>Oxxxymiron</h1>
+                <p>Исполнитель</p>
+              </div>
+            </div>
+          </section>
+          <section id="my-authors">
+            <div class="top">
+              <h2>Недавно прослушанные исполнители:</h2>
+              <p>Видны только тебе</p>
+            </div>
+            <div class="cards">
+              <div class="author">
+                <img src="assets/mylogo v4_1.jpg" />
+                <h1>Oxxxymiron</h1>
+                <p>Исполнитель</p>
+              </div>
+              <div class="author">
+                <img src="assets/mylogo v4_1.jpg" />
+                <h1>Oxxxymiron</h1>
+                <p>Исполнитель</p>
+              </div>
+              <div class="author">
+                <img src="assets/mylogo v4_1.jpg" />
+                <h1>Oxxxymiron</h1>
+                <p>Исполнитель</p>
+              </div>
+              <div class="author">
+                <img src="assets/mylogo v4_1.jpg" />
+                <h1>Oxxxymiron</h1>
+                <p>Исполнитель</p>
+              </div>
+              <div class="author">
+                <img src="assets/mylogo v4_1.jpg" />
+                <h1>Oxxxymiron</h1>
+                <p>Исполнитель</p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
